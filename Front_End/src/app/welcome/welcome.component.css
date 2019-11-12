@@ -1,0 +1,27 @@
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  /* unvisited link */
+
+td.Link {
+    color: #158ea3;
+  }
+  
+  /* visited link */
+  td.Link:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  td.Link:hover {
+    color: green;
+  }
+  
+  /* selected link */
+  td.Link:active {
+    color: blue;
+  }
